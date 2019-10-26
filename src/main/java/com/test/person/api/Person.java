@@ -1,4 +1,4 @@
-package com.test.person.api.model;
+package com.test.person.api;
 
 public class Person {
 	

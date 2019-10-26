@@ -1,4 +1,4 @@
-package com.test.person.api.model;
+package com.test.person.api;
 
 import org.springframework.stereotype.Repository;
 
@@ -12,6 +12,10 @@ public class PersonDAO {
         list.getPersonList().add(new Person("Lokesh", "Gupta"));
         list.getPersonList().add(new Person("Alex", "Kolenchiskey"));
         list.getPersonList().add(new Person("David", "Kameron"));
+        list.getPersonList().add(new Person("White", "Johnson"));
+        list.getPersonList().add(new Person("Laura", "Datt"));
+        list.getPersonList().add(new Person("Paul", "Griffin"));
+        
     }
      
     public Persons getAllPersons()
