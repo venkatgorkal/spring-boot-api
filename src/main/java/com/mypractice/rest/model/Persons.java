@@ -1,10 +1,12 @@
-package com.test.person.api;
+package com.mypractice.rest.model;
 
 import java.util.ArrayList;
 import java.util.List;
 
+
+
 public class Persons {
-	 private List<Person> personList;
+	 public List<Person> personList;
      
 	    public List<Person> getPersonList() {
 	        if(personList == null) {

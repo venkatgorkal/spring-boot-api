@@ -1,6 +1,8 @@
-package com.test.person.api;
+package com.mypractice.rest.model;
 
 import org.springframework.stereotype.Repository;
+
+import com.mypractice.rest.model.Persons;
 
 @Repository
 public class PersonDAO {

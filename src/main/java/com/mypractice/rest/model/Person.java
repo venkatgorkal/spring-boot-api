@@ -1,4 +1,4 @@
-package com.test.person.api;
+package com.mypractice.rest.model;
 
 public class Person {
 	
@@ -6,6 +6,7 @@ public class Person {
 		super();
 		this.firstName = firstName;
 		this.lastName = lastName;
+		System.out.println("person object created");
 	}
 	private String firstName;
 	private String lastName;
